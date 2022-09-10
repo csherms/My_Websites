@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Amiri", serif;
+}
+
+body {
+  background-color: rgb(156, 168, 179);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  text-align: center;
+  color: ghostwhite;
+  background-image: url("./images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 4em;
+  border-radius: 20px;
+  margin: 2em;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#badges-container {
+  text-align: center;
+  background-color: rgb(204, 204, 217);
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px black;
+  margin: 5em;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+#badges-header {
+  padding-bottom: 30px;
+}
+
+img {
+  width: 120px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid aqua;
+  transition: 0.3s;
+}
+
+img:hover {
+  border: 5px solid black;
+}
