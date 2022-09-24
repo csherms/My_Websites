@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
 
+/* General Styles */
 body {
   font-family: "Amiri", serif;
   margin: 0;
@@ -42,6 +43,7 @@ main {
     -30px 0px 40px rgba(0, 0, 0, 0.3);
 }
 
+/* Landing Area */
 #landing {
   background-color: #fff;
 }
@@ -86,14 +88,15 @@ main {
   background: #f4f4f4;
 }
 
-#header {
+/* Work Area */
+.header {
   padding: 1.5rem;
   text-align: center;
   background: #333;
   color: #fff;
 }
 
-#header h2 {
+.header h2 {
   border-left: dotted 1px #fff;
   border-right: dotted 1px #fff;
   display: inline-block;
@@ -106,6 +109,7 @@ main {
   text-align: center;
 }
 
+/* Badges Area */
 #badges-container {
   text-align: center;
   background-color: rgba(191, 241, 248, 0.687);
@@ -135,6 +139,7 @@ main {
   border: 3px solid black;
 }
 
+/* Accolades Area */
 .accolades {
   display: flex;
   justify-content: space-evenly;
@@ -145,6 +150,7 @@ main {
   border-right: dotted 1px #333;
 }
 
+/* Footer Area */
 footer {
   text-align: center;
   padding: 2rem 1rem;
