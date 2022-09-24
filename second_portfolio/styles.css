@@ -9,11 +9,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #888;
 }
 
 a:hover {
-  color: #888;
+  color: #333;
 }
 
 h1 {
@@ -75,7 +75,7 @@ main {
   padding: 0.5rem 2rem;
   border: 1px #ccc solid;
   display: inline-block;
-  margin: 2rem 0 0;
+  margin: 2rem 0 1rem;
   border-radius: 50px;
   text-decoration: none;
   color: #333;
@@ -122,8 +122,8 @@ main {
 }
 
 #badges img {
-  width: 100px;
-  margin: 0.5rem;
+  width: 3rem;
+  margin: 0.3rem;
   background-color: white;
   border-radius: 10px;
   border: 3px solid aquamarine;
@@ -132,19 +132,39 @@ main {
 }
 
 #badges img:hover {
-  width: 98px;
+  border: 3px solid black;
+}
+
+.accolades {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accolades p {
+  border-left: dotted 1px #333;
+  border-right: dotted 1px #333;
 }
 
 footer {
   text-align: center;
   padding: 2rem 1rem;
   margin: auto;
-  color: #333;
+  color: #888;
+}
+
+footer h2 {
+  border-bottom: 1px solid #888;
 }
 
 footer h3 {
   font-size: 3rem;
   margin-bottom: 0;
+}
+
+#contact-sites {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
 }
 
 /* Screen Sizes 500px and up */
@@ -167,5 +187,13 @@ footer h3 {
 @media (min-width: 700px) {
   .btn {
     padding: 1rem 3rem;
+  }
+
+  #badges img {
+    width: 5rem;
+  }
+
+  .accolades p {
+    padding: 0.5rem;
   }
 }
