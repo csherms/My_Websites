@@ -17,6 +17,11 @@ a:hover {
   color: #333;
 }
 
+.pages h3 {
+  background-color: #ffe;
+  margin: 2vh 15vw 2vh 15vw;
+}
+
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
